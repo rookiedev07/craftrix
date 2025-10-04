@@ -1,49 +1,63 @@
 import { useState } from 'react';
 import { X, ExternalLink, Github, ArrowRight } from 'lucide-react';
 import richlogo from "../assets/rich-clothing.png"
+import mavenstudiosone from "../assets/mavenstudios.jpg"
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
-{
-  id: 1,
-  title: 'TRCAC College Website',
-  category: 'College Website',
-  image: 'https://trcac-nine.vercel.app/images/trcac_logo.png',
-  description: 'An informative and user-friendly web platform for Thakur Ramnarayan College of Arts and Commerce.',
-  fullDescription: 'The TRCAC website was built to provide students, parents, and faculty with clear access to information about courses, departments, events, and admissions. Designed with a modern, responsive layout, the site enhances accessibility and showcases the college’s academic excellence.',
-  technologies: ['React'],
-  challenges: 'Creating a responsive, visually appealing frontend that could present all college details clearly without a backend or database integration.',
-  solutions: 'Built a fully static frontend using React, optimized for speed and responsiveness. Content was structured for easy navigation, and deployment was managed through Vercel for reliable hosting.',
-  results: 'Smooth browsing experience, fast load times across devices, and an accessible platform that effectively communicates the college’s offerings and updates.',
-  testimonial: {
-    text: 'The TRCAC website reflects the professionalism and spirit of our institution. It has become a valuable resource for both students and faculty.',
-    author: 'Administration, TRCAC'
-  },
-  liveUrl: 'https://trcac-nine.vercel.app/',
-},
-{
-  "id": 2,
-  "title": "Rich Clothing",
-  "category": "E-Commerce",
-  "image": richlogo,
-  "description": "A modern clothing e-commerce platform offering a curated selection of apparel for men and women.",
-  "fullDescription": "Rich Clothing is a stylish online clothing store built with React, providing a seamless shopping experience. The website features a clean, responsive design showcasing a variety of clothing categories, including hoodies, jackets, pants, and more. Users can explore the latest collections, view product details, and enjoy a user-friendly interface optimized for both desktop and mobile devices.",
-  "challenges": "Designing a visually appealing and fully responsive e-commerce platform that could showcase multiple clothing categories while maintaining fast load times and a smooth user experience.",
-  "solutions": "Developed a modern, responsive frontend using React, structured the product catalog for easy navigation, and implemented optimized images and components for faster performance. Deployed the platform on Vercel for reliable hosting.",
-  "results": "An intuitive and attractive online shopping experience, seamless browsing across devices, and a platform that effectively highlights Rich Clothing’s collections and drives user engagement.",
-  "technologies": ["React", "Vercel"],
-  "liveUrl": "https://rich-clothing-art.vercel.app/"
-}
+    {
+      id: 1,
+      title: 'TRCAC College Website',
+      category: 'College Website',
+      image: 'https://trcac-nine.vercel.app/images/trcac_logo.png',
+      description: 'An informative and user-friendly web platform for Thakur Ramnarayan College of Arts and Commerce.',
+      fullDescription: 'The TRCAC website was built to provide students, parents, and faculty with clear access to information about courses, departments, events, and admissions. Designed with a modern, responsive layout, the site enhances accessibility and showcases the college’s academic excellence.',
+      technologies: ['React'],
+      challenges: 'Creating a responsive, visually appealing frontend that could present all college details clearly without a backend or database integration.',
+      solutions: 'Built a fully static frontend using React, optimized for speed and responsiveness. Content was structured for easy navigation, and deployment was managed through Vercel for reliable hosting.',
+      results: 'Smooth browsing experience, fast load times across devices, and an accessible platform that effectively communicates the college’s offerings and updates.',
+      testimonial: {
+        text: 'The TRCAC website reflects the professionalism and spirit of our institution. It has become a valuable resource for both students and faculty.',
+        author: 'Administration, TRCAC'
+      },
+      liveUrl: 'https://trcac-nine.vercel.app/',
+    },
+    {
+      "id": 2,
+      "title": "Rich Clothing",
+      "category": "E-Commerce",
+      "image": richlogo,
+      "description": "A modern clothing e-commerce platform offering a curated selection of apparel for men and women.",
+      "fullDescription": "Rich Clothing is a stylish online clothing store built with React, providing a seamless shopping experience. The website features a clean, responsive design showcasing a variety of clothing categories, including hoodies, jackets, pants, and more. Users can explore the latest collections, view product details, and enjoy a user-friendly interface optimized for both desktop and mobile devices.",
+      "challenges": "Designing a visually appealing and fully responsive e-commerce platform that could showcase multiple clothing categories while maintaining fast load times and a smooth user experience.",
+      "solutions": "Developed a modern, responsive frontend using React, structured the product catalog for easy navigation, and implemented optimized images and components for faster performance. Deployed the platform on Vercel for reliable hosting.",
+      "results": "An intuitive and attractive online shopping experience, seamless browsing across devices, and a platform that effectively highlights Rich Clothing’s collections and drives user engagement.",
+      "technologies": ["React", "Vercel"],
+      "liveUrl": "https://rich-clothing-art.vercel.app/"
+    },
+    {
+      "id": 1,
+      "title": "MavenStudiosOne",
+      "category": "Game Development Studio",
+      "image": mavenstudiosone,
+      "description": "A modern game development studio showcasing cinematic, story-driven games with immersive experiences.",
+      "fullDescription": "MavenStudiosOne is an indie game development studio focused on creating narrative-driven, cinematic games. Their flagship upcoming RPG, *Echoes: Beyond the Veil*, is a story-rich, atmospheric experience blending sci-fi and horror elements. The website highlights the studio's mission, featured games, upcoming projects, characters, lore, and media gallery, all within a modern, sleek, and responsive interface optimized for desktop and mobile devices.",
+      "challenges": "Designing a professional studio website that prominently showcases the flagship game while leaving space for other upcoming projects, maintaining cinematic aesthetics, smooth transitions, and responsive design across devices.",
+      "solutions": "Developed a modular, responsive frontend using modern web design principles, incorporated interactive elements such as parallax scrolling, hover animations, and cinematic visuals. Highlighted the flagship game with inverted color sections to create emphasis while maintaining a cohesive studio-wide design.",
+      "results": "A visually engaging, professional studio website that highlights MavenStudiosOne’s cinematic identity, showcases the flagship game *Echoes: Beyond the Veil*, and provides space to feature upcoming projects, enhancing user engagement and brand presence online.",
+      "technologies": ["React", "Vercel"],
+      "liveUrl": "https://mavenstudiosone.vercel.app/"
+    }
 
   ];
 
   const categories = ['All', 'E-Commerce', 'Web App', 'Corporate', 'Dashboard', 'Platform', 'Education'];
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const filteredProjects = activeCategory === 'All' 
-    ? projects 
+  const filteredProjects = activeCategory === 'All'
+    ? projects
     : projects.filter(project => project.category === activeCategory);
 
   const openModal = (project) => {
@@ -64,7 +78,7 @@ const Work = () => {
           <div className="work-hero-content text-center">
             <h1 className="fade-in">Our Portfolio</h1>
             <p className="lead fade-in fade-in-delay-1">
-              Discover the innovative web solutions we've crafted for businesses across various industries. 
+              Discover the innovative web solutions we've crafted for businesses across various industries.
             </p>
           </div>
         </div>
@@ -92,8 +106,8 @@ const Work = () => {
         <div className="container">
           <div className="projects-grid grid grid-3">
             {filteredProjects.map((project, index) => (
-              <div 
-                key={project.id} 
+              <div
+                key={project.id}
                 className={`project-card card fade-in fade-in-delay-${(index % 3) + 1}`}
                 onClick={() => openModal(project)}
               >
@@ -125,7 +139,7 @@ const Work = () => {
       </section>
 
       {/* CTA Section */}
-      {/* <section className="cta-section section-sm">
+      <section className="cta-section section-sm">
         <div className="container">
           <div className="cta-content text-center fade-in">
             <h2>Ready to Start Your Project?</h2>
@@ -142,7 +156,7 @@ const Work = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Project Modal */}
       {selectedProject && (
@@ -151,7 +165,7 @@ const Work = () => {
             <button className="modal-close" onClick={closeModal}>
               <X size={24} />
             </button>
-            
+
             <div className="modal-header">
               <img src={selectedProject.image} alt={selectedProject.title} />
               <div className="modal-header-info">
