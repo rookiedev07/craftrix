@@ -53,10 +53,10 @@ const Contact = () => {
     setIsSubmitting(true);
     try {
       await emailjs.send(
-        "service_ozw91c3",
-        "template_lqk2h5l",
+        "service_t1hee4p",
+        "template_yr3liw9",
         formData,
-        "fl9z4ViBJ96ymiudq"
+        "0dJZ97V2624ClRhF9"
       );
       setIsSubmitted(true);
       setFormData({ name: "", email: "", subject: "", message: "" });
@@ -73,7 +73,7 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       title: "Email Us",
-      details: "hello@webcraft.com",
+      details: "craftrix.web3@gmail.com",
       subtext: "We typically respond within 24 hours",
     },
     {
@@ -91,7 +91,7 @@ const Contact = () => {
   const socialLinks = [
     {
       icon: <Linkedin size={20} />,
-      url: "https://linkedin.com/company/webcraft",
+      url: "#",
       name: "LinkedIn",
     },
     {

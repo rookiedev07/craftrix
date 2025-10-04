@@ -238,7 +238,7 @@ const Services = () => {
               <Link to="/contact" className="btn btn-primary">
                 Start Your Project <ArrowRight size={20} />
               </Link>
-              <Link to="/work" className="btn btn-outline">
+              <Link to="/portfolio" className="btn btn-outline">
                 View Our Work
               </Link>
             </div>

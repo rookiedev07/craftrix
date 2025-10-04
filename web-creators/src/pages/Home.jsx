@@ -40,7 +40,7 @@ const Home = () => {
                 to help your business grow online
               </p>
               <div className="hero-buttons">
-                <Link to="/work" className="btn btn-primary">
+                <Link to="/portfolio" className="btn btn-primary">
                   See Our Work <ArrowRight size={20} />
                 </Link>
                 <Link to="/contact" className="btn btn-outline">
@@ -151,7 +151,7 @@ const Home = () => {
               <Link to="/contact" className="btn btn-secondary">
                 Start Your Project
               </Link>
-              <Link to="/work" className="btn btn-outline">
+              <Link to="/portfolio" className="btn btn-outline">
                 View Portfolio
               </Link>
             </div>

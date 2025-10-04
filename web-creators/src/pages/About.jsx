@@ -32,7 +32,7 @@ const About = () => {
     {
       year: '2020',
       title: 'Company Founded',
-      description: 'Three friends with a shared vision started WebCraft in a small apartment'
+      description: 'Three friends with a shared vision started Craft in a small apartment'
     },
     {
       year: '2021',
@@ -85,7 +85,7 @@ const About = () => {
       <section className="about-hero section">
         <div className="container">
           <div className="about-hero-content text-center">
-            <h1 className="fade-in">About WebCraft</h1>
+            <h1 className="fade-in">About Craftrix</h1>
             <p className="lead fade-in fade-in-delay-1">
               We're a passionate team of three founders dedicated to creating exceptional web experiences.
             </p>
