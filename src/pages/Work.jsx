@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { X, ExternalLink, Github, ArrowRight } from 'lucide-react';
 import richlogo from "../assets/rich-clothing.png"
 import mavenstudiosone from "../assets/mavenstudios.jpg"
-import lumiere from "../assets/lumiere.jpg"
+import lumiere from "../assets/lumiere.png"
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
