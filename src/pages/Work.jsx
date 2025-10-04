@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { X, ExternalLink, Github, ArrowRight } from 'lucide-react';
 import richlogo from "../assets/rich-clothing.png"
 import mavenstudiosone from "../assets/mavenstudios.jpg"
+import lumiere from "../assets/lumiere.jpg"
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -54,7 +55,7 @@ const Work = () => {
       "id": 4,
       "title": "Lumiere",
       "category": "E-Commerce",
-      "image": "",
+      "image": lumiere,
   "description": "A luxurious online jewelry store offering a curated selection of high-quality rings, necklaces, bracelets, and earrings.",
   "fullDescription": "Lumina Jewelry is an elegant e-commerce platform designed to provide a seamless shopping experience for jewelry enthusiasts. The website features a clean, responsive design that showcases a wide range of collections, including engagement rings, statement necklaces, bracelets, and custom designs. Users can explore products, view detailed images, and enjoy a user-friendly interface optimized for both desktop and mobile devices.",
   "challenges": "Creating a visually stunning and fully responsive jewelry website that highlights the beauty and detail of each piece while maintaining fast load times and smooth navigation.",
