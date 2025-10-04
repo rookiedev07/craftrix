@@ -32,7 +32,7 @@ const Footer = () => {
             <nav className="footer-nav">
               <Link to="/">Home</Link>
               <Link to="/about">About Us</Link>
-              <Link to="/work">Our Work</Link>
+              <Link to="/portfolio">Our Portfolio</Link>
               <Link to="/services">Services</Link>
               <Link to="/contact">Contact</Link>
             </nav>
