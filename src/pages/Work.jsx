@@ -61,7 +61,7 @@ const Work = () => {
   "solutions": "Developed a modern, responsive frontend using React, structured the product catalog for easy browsing, implemented high-resolution optimized images, and added interactive elements like hover effects, product zoom, and category filters.",
   "results": "A sophisticated online shopping experience that showcases Lumina Jewelry’s collections, enhances user engagement, and increases conversions through an intuitive, visually appealing interface.",
   "technologies": ["React", "Vercel", "Tailwind CSS"],
-      "liveUrl": "https://mavenstudiosone.vercel.app/"
+      "liveUrl": "https://new-chat-ziro.bolt.host/"
     }
 
   ];
