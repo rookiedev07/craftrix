@@ -38,7 +38,7 @@ const Work = () => {
       "liveUrl": "https://rich-clothing-art.vercel.app/"
     },
     {
-      "id": 1,
+      "id": 3,
       "title": "MavenStudiosOne",
       "category": "Game Development Studio",
       "image": mavenstudiosone,
@@ -48,6 +48,19 @@ const Work = () => {
       "solutions": "Developed a modular, responsive frontend using modern web design principles, incorporated interactive elements such as parallax scrolling, hover animations, and cinematic visuals. Highlighted the flagship game with inverted color sections to create emphasis while maintaining a cohesive studio-wide design.",
       "results": "A visually engaging, professional studio website that highlights MavenStudiosOne’s cinematic identity, showcases the flagship game *Echoes: Beyond the Veil*, and provides space to feature upcoming projects, enhancing user engagement and brand presence online.",
       "technologies": ["React", "Vercel"],
+      "liveUrl": "https://mavenstudiosone.vercel.app/"
+    },
+    {
+      "id": 4,
+      "title": "Lumiere",
+      "category": "E-Commerce",
+      "image": "",
+  "description": "A luxurious online jewelry store offering a curated selection of high-quality rings, necklaces, bracelets, and earrings.",
+  "fullDescription": "Lumina Jewelry is an elegant e-commerce platform designed to provide a seamless shopping experience for jewelry enthusiasts. The website features a clean, responsive design that showcases a wide range of collections, including engagement rings, statement necklaces, bracelets, and custom designs. Users can explore products, view detailed images, and enjoy a user-friendly interface optimized for both desktop and mobile devices.",
+  "challenges": "Creating a visually stunning and fully responsive jewelry website that highlights the beauty and detail of each piece while maintaining fast load times and smooth navigation.",
+  "solutions": "Developed a modern, responsive frontend using React, structured the product catalog for easy browsing, implemented high-resolution optimized images, and added interactive elements like hover effects, product zoom, and category filters.",
+  "results": "A sophisticated online shopping experience that showcases Lumina Jewelry’s collections, enhances user engagement, and increases conversions through an intuitive, visually appealing interface.",
+  "technologies": ["React", "Vercel", "Tailwind CSS"],
       "liveUrl": "https://mavenstudiosone.vercel.app/"
     }
 
