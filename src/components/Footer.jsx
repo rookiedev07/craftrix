@@ -9,12 +9,12 @@ const Footer = () => {
           <div className="footer-section">
             <Link to="/" className="footer-logo">
               <Code size={32} />
-              <span>WebCraft</span>
+              <span>Craftrix</span>
             </Link>
             <p className="footer-tagline">
               Empowering businesses with powerful web solutions
             </p>
-            <div className="social-links">
+            {/* <div className="social-links">
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
@@ -24,7 +24,7 @@ const Footer = () => {
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github size={20} />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div className="footer-section">
@@ -54,22 +54,22 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <Mail size={16} />
-                <span>hello@webcraft.com</span>
+                <span>craftrix.web3@gmail.com</span>
               </div>
               <div className="contact-item">
                 <Phone size={16} />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 84540 30044</span>
               </div>
               <div className="contact-item">
                 <MapPin size={16} />
-                <span>San Francisco, CA</span>
+                <span>Mumbai</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 WebCraft. All rights reserved.</p>
+          <p>&copy; 2024 Craftrix. All rights reserved.</p>
           <div className="footer-legal">
             <a href="#privacy">Privacy Policy</a>
             <a href="#terms">Terms of Service</a>
