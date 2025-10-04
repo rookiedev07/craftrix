@@ -125,7 +125,7 @@ const Work = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="cta-section section-sm">
+      {/* <section className="cta-section section-sm">
         <div className="container">
           <div className="cta-content text-center fade-in">
             <h2>Ready to Start Your Project?</h2>
@@ -142,7 +142,7 @@ const Work = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Project Modal */}
       {selectedProject && (
