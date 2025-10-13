@@ -85,7 +85,7 @@ const About = () => {
       <section className="about-hero section">
         <div className="container">
           <div className="about-hero-content text-center">
-            <h1 className="fade-in">About Craftrix</h1>
+            <h1 className="fade-in">About Craftrix Studio</h1>
             <p className="lead fade-in fade-in-delay-1">
               We're a passionate team of three founders dedicated to creating exceptional web experiences.
             </p>

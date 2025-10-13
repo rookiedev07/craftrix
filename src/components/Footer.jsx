@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer-section">
             <Link to="/" className="footer-logo">
               <Code size={32} />
-              <span>Craftrix</span>
+              <span>Craftrix Studio</span>
             </Link>
             <p className="footer-tagline">
               Empowering businesses with powerful web solutions

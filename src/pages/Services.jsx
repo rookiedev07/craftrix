@@ -191,7 +191,7 @@ const Services = () => {
         <div className="container">
           <div className="benefits-content">
             <div className="benefits-text fade-in">
-              <h2>Why Choose WebCraft?</h2>
+              <h2>Why Choose Craftrix Studio?</h2>
               <p>
                 We're not just another web development agency. We're your partners in digital success, 
                 committed to delivering solutions that drive real business results.
