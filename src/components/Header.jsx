@@ -30,7 +30,7 @@ const Header = () => {
         <nav className="nav">
           <Link to="/" className="logo">
             <Code size={32} />
-            <span>Craftrix</span>
+            <span>Craftrix Studio</span>
           </Link>
 
           {/* Desktop Navigation */}
