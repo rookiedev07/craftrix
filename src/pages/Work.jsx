@@ -51,19 +51,7 @@ const Work = () => {
       "technologies": ["React", "Vercel"],
       "liveUrl": "https://mavenstudiosone.vercel.app/"
     },
-    {
-      "id": 4,
-      "title": "Lumiere",
-      "category": "E-Commerce",
-      "image": lumiere,
-  "description": "A luxurious online jewelry store offering a curated selection of high-quality rings, necklaces, bracelets, and earrings.",
-  "fullDescription": "Lumina Jewelry is an elegant e-commerce platform designed to provide a seamless shopping experience for jewelry enthusiasts. The website features a clean, responsive design that showcases a wide range of collections, including engagement rings, statement necklaces, bracelets, and custom designs. Users can explore products, view detailed images, and enjoy a user-friendly interface optimized for both desktop and mobile devices.",
-  "challenges": "Creating a visually stunning and fully responsive jewelry website that highlights the beauty and detail of each piece while maintaining fast load times and smooth navigation.",
-  "solutions": "Developed a modern, responsive frontend using React, structured the product catalog for easy browsing, implemented high-resolution optimized images, and added interactive elements like hover effects, product zoom, and category filters.",
-  "results": "A sophisticated online shopping experience that showcases Lumina Jewelry’s collections, enhances user engagement, and increases conversions through an intuitive, visually appealing interface.",
-  "technologies": ["React", "Vercel", "Tailwind CSS"],
-      "liveUrl": "https://new-chat-ziro.bolt.host/"
-    }
+  
 
   ];
 
