@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { X, ExternalLink, Github, ArrowRight } from 'lucide-react';
 import richlogo from "../assets/rich-clothing.png"
 import mavenstudiosone from "../assets/mavenstudios.jpg"
-import lumiere from "../assets/lumiere.png"
+import clothique from "../assets/clothique.png"
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -51,7 +51,20 @@ const Work = () => {
       "technologies": ["React", "Vercel"],
       "liveUrl": "https://mavenstudiosone.vercel.app/"
     },
-  
+    {
+  "id": 4,
+  "title": "Clothique",
+  "category": "E-Commerce",
+  "image": clothiqueLogo,
+  "description": "A minimalist fashion e-commerce platform offering curated clothing for modern, style-conscious individuals.",
+  "fullDescription": "Clothique is an elegant online clothing store built with React, featuring a minimalist design that emphasizes simplicity and style. The platform allows users to browse curated collections of apparel, including shirts, jackets, dresses, and accessories. The interface is fully responsive, optimized for desktop and mobile, providing a seamless shopping experience with easy navigation and fast performance.",
+  "challenges": "Creating a clean and minimalist design that still effectively showcases multiple clothing collections while maintaining high performance and responsive design across devices.",
+  "solutions": "Developed a responsive React frontend with an emphasis on minimalistic aesthetics, structured product displays for intuitive browsing, and optimized media assets to ensure fast loading. Deployed on Vercel for reliable performance and hosting.",
+  "results": "A stylish, easy-to-navigate online store that engages users, highlights the curated collections effectively, and delivers a smooth shopping experience across all devices.",
+  "technologies": ["React", "Vercel"],
+  "liveUrl": "https://clothique-web.vercel.app/"
+}
+
 
   ];
 
